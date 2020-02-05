@@ -1,0 +1,27 @@
+{
+  "name": "webpack-custom",
+  "version": "1.0.0",
+  "description": "Webpack is a static module bundler for modern JavaScript applications.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build-cust": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijithss2010/webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhijithss2010/webpack/issues"
+  },
+  "homepage": "https://github.com/abhijithss2010/webpack#readme",
+  "devDependencies": {
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
